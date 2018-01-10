@@ -31,7 +31,7 @@
     <logger name="otoroshi-api-action" level="WARN" />
     <logger name="otoroshi-admin-api" level="WARN" />
     <logger name="otoroshi-auth0" level="WARN" />
-    <logger name="otoroshi-backoffice-api" level="DEBUG" />
+    <logger name="otoroshi-backoffice-api" level="WARN" />
     <logger name="otoroshi-debu-api-proxy-issue" level="WARN" />
     <logger name="otoroshi-u2f-controller" level="WARN" />
     <logger name="otoroshi-local-dns" level="WARN" />
