@@ -34,7 +34,7 @@ function cloning_sources {
 	echo "Gloning sources from OSS repo"
 	git clone https://github.com/MAIF/otoroshi.git otoroshi-sources
 	cd otoroshi-sources
-	git checkout 14fd2699ef129630154c69ed72546adf7fe06eb9
+	git checkout 78816cd29bee7f85e46a08dfeb67f9d8a20ae8a1
 }
 
 function moving_sources {
