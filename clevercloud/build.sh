@@ -5,7 +5,7 @@ echo "Run build from CC hooks"
 LOCATION=`pwd`
 
 function build_doc {
-	echo "Running Doc build"	
+	echo "Running Doc build"
 	cd $LOCATION/otoroshi-sources/manual
 	sbt paradox
 	cp -rv ./target/paradox/site/main ../../public/docs
@@ -34,7 +34,7 @@ function cloning_sources {
 	echo "Gloning sources from OSS repo"
 	git clone https://github.com/MAIF/otoroshi.git otoroshi-sources
 	cd otoroshi-sources
-	git checkout c1731fd075c6c2a7164fde5b51bebc004109f620
+	git checkout 14fd2699ef129630154c69ed72546adf7fe06eb9
 }
 
 function moving_sources {
