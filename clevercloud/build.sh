@@ -36,7 +36,7 @@ function cloning_sources {
 	cd otoroshi-sources
 	git fetch --all
 	git fetch --tags
-	git checkout v1.4.4
+	git checkout v1.4.7
 }
 
 function moving_sources {
