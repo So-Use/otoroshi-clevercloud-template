@@ -15,9 +15,9 @@ function build_doc {
 function build_ui {
 	echo "Sourcing nvm"
 	source /home/bas/.nvm/nvm.sh
-	echo "using node version 8.6.0"
-	nvm install v8.6.0
-	nvm use v8.6.0
+	echo "using node version 13.1.0"
+	nvm install v13.1.0
+	nvm use v13.1.0
 	echo "Installing Yarn"
 	npm install -g yarn
 	echo "Installing JS deps in javascript"
